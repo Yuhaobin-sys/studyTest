@@ -1,0 +1,6 @@
+spring:
+  rabbitmq:
+    host: 192.168.23.129
+    publisher-confirms: true #开启confirm机制
+server:
+  port: 8081

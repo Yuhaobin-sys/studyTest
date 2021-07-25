@@ -1,0 +1,9 @@
+spring:
+  rabbitmq:
+    host: 192.168.23.129
+    publisher-confirms: true #开启confirm机制
+    publisher-returns: true  #开启return模式
+    template:
+      mandatory: true        #return模式下将匹配路由失败的消息返回
+server:
+  port: 8080
